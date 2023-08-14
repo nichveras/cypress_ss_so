@@ -5,7 +5,7 @@ describe('Teste funcional de Login Sou Serials', () => {
     it('Deve realizar um login com sucesso', () => {
         cy.viewport(1440, 900);
         cy.visit("https://ssfh-aws.souenergy.com.br/login")
-        cy.get('#email').type("Nicholas")
+        cy.get('#email').type("test")
         cy.get('#password').type('*****')
         cy.get('.btn').click()
 
