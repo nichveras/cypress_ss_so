@@ -4,7 +4,7 @@
 describe('Teste E2E - Realizando a criação de remessa com sucesso', () => {
     it('Fluxo da criação de remessa', () => {
             cy.visit("https://souout-homolog.souenergy.com.br/")
-            cy.get('#input-10').type("Nicholas")
+            cy.get('#input-10').type("Test")
             cy.get('#input-13').type("******")
             cy.get('.m-texto').click()   
             //Validação de Login 
